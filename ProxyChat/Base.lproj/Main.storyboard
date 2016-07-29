@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="S0L-cU-IYH">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--ProxyChat-->
+        <scene sceneID="MIs-Rx-uY7">
+            <objects>
+                <viewController title="ProxyChat" id="0fO-tV-gaR" customClass="ViewController" customModule="ProxyChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pJi-VJ-OEJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="AQz-2h-Pw4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l7T-nw-EKV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ProxyChat" id="ahb-qR-LNd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0b9-dD-Oo8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1836" y="97"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4Pi-6v-wko">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S0L-cU-IYH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DBs-HF-IOp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0fO-tV-gaR" kind="relationship" relationship="rootViewController" id="gKN-bu-gVz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lfi-4h-qhU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="986" y="97"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_ProxyChatTests {
+  umbrella header "Pods-ProxyChatTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

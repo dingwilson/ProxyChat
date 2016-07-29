@@ -1,0 +1,6 @@
+framework module Pods_ProxyChat {
+  umbrella header "Pods-ProxyChat-umbrella.h"
+
+  export *
+  module * { export * }
+}
