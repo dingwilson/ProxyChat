@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		59BA275C252D829DEFEFD036 /* Pods_ProxyChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6D2FFB119ACF084C99B161 /* Pods_ProxyChatTests.framework */; };
-		6A384894DC3EF11F2AF93F80 /* Pods_ProxyChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5748C6169FB8D2B52BAF16 /* Pods_ProxyChatUITests.framework */; };
 		9C9DD1B296B4D7FC090E7436 /* Pods_ProxyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEE3194E516E94CDA8F8F0D /* Pods_ProxyChat.framework */; };
 		C87BB7311BC927210034AB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB7301BC927210034AB58 /* AppDelegate.swift */; };
 		C87BB7361BC927210034AB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87BB7341BC927210034AB58 /* Main.storyboard */; };
@@ -17,23 +15,6 @@
 		C87BB75F1BC927AF0034AB58 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87BB75E1BC927AF0034AB58 /* MultipeerConnectivity.framework */; };
 		C87BB7651BC9299F0034AB58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB7641BC9299F0034AB58 /* ViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C87BB7421BC927210034AB58 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C87BB7251BC927210034AB58 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C87BB72C1BC927210034AB58;
-			remoteInfo = ProxyChat;
-		};
-		C87BB74D1BC927210034AB58 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C87BB7251BC927210034AB58 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C87BB72C1BC927210034AB58;
-			remoteInfo = ProxyChat;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4F64634AF8BED5A591EB002E /* Pods-ProxyChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProxyChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProxyChatUITests/Pods-ProxyChatUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,8 +27,6 @@
 		C87BB7371BC927210034AB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C87BB73A1BC927210034AB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C87BB73C1BC927210034AB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C87BB7411BC927210034AB58 /* ProxyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C87BB74C1BC927210034AB58 /* ProxyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87BB75E1BC927AF0034AB58 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		C87BB7641BC9299F0034AB58 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF695F3E76640D5AEBA4EFE1 /* Pods-ProxyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProxyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProxyChat/Pods-ProxyChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,22 +43,6 @@
 			files = (
 				C87BB75F1BC927AF0034AB58 /* MultipeerConnectivity.framework in Frameworks */,
 				9C9DD1B296B4D7FC090E7436 /* Pods_ProxyChat.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C87BB73E1BC927210034AB58 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59BA275C252D829DEFEFD036 /* Pods_ProxyChatTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C87BB7491BC927210034AB58 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A384894DC3EF11F2AF93F80 /* Pods_ProxyChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				C87BB72D1BC927210034AB58 /* ProxyChat.app */,
-				C87BB7411BC927210034AB58 /* ProxyChatTests.xctest */,
-				C87BB74C1BC927210034AB58 /* ProxyChatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,12 +111,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C87BB7551BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChat" */;
 			buildPhases = (
-				770CFBC2E71F4BA853FCC808 /* 📦 Check Pods Manifest.lock */,
+				770CFBC2E71F4BA853FCC808 /* [CP] Check Pods Manifest.lock */,
 				C87BB7291BC927210034AB58 /* Sources */,
 				C87BB72A1BC927210034AB58 /* Frameworks */,
 				C87BB72B1BC927210034AB58 /* Resources */,
-				5AE57F404B68E14078EBF5E3 /* 📦 Embed Pods Frameworks */,
-				857594E1546A1F97FBC05BED /* 📦 Copy Pods Resources */,
+				5AE57F404B68E14078EBF5E3 /* [CP] Embed Pods Frameworks */,
+				857594E1546A1F97FBC05BED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,67 +127,19 @@
 			productReference = C87BB72D1BC927210034AB58 /* ProxyChat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C87BB7401BC927210034AB58 /* ProxyChatTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C87BB7581BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChatTests" */;
-			buildPhases = (
-				7264FAE350F0EB1106B231D5 /* 📦 Check Pods Manifest.lock */,
-				C87BB73D1BC927210034AB58 /* Sources */,
-				C87BB73E1BC927210034AB58 /* Frameworks */,
-				C87BB73F1BC927210034AB58 /* Resources */,
-				D4B294EBA97DBF66F732DDCF /* 📦 Embed Pods Frameworks */,
-				14370063B35F27066242AF91 /* 📦 Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C87BB7431BC927210034AB58 /* PBXTargetDependency */,
-			);
-			name = ProxyChatTests;
-			productName = ProxyChatTests;
-			productReference = C87BB7411BC927210034AB58 /* ProxyChatTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C87BB74B1BC927210034AB58 /* ProxyChatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C87BB75B1BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChatUITests" */;
-			buildPhases = (
-				0710F2441815AC5EA6F12780 /* 📦 Check Pods Manifest.lock */,
-				C87BB7481BC927210034AB58 /* Sources */,
-				C87BB7491BC927210034AB58 /* Frameworks */,
-				C87BB74A1BC927210034AB58 /* Resources */,
-				48DE3F56A03C5A777BAAC96E /* 📦 Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C87BB74E1BC927210034AB58 /* PBXTargetDependency */,
-			);
-			name = ProxyChatUITests;
-			productName = ProxyChatUITests;
-			productReference = C87BB74C1BC927210034AB58 /* ProxyChatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C87BB7251BC927210034AB58 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Wilson Ding";
 				TargetAttributes = {
 					C87BB72C1BC927210034AB58 = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 585SNYAD83;
-					};
-					C87BB7401BC927210034AB58 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = C87BB72C1BC927210034AB58;
-					};
-					C87BB74B1BC927210034AB58 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = C87BB72C1BC927210034AB58;
+						DevelopmentTeam = Z88HQX98VL;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -244,8 +157,6 @@
 			projectRoot = "";
 			targets = (
 				C87BB72C1BC927210034AB58 /* ProxyChat */,
-				C87BB7401BC927210034AB58 /* ProxyChatTests */,
-				C87BB74B1BC927210034AB58 /* ProxyChatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,76 +172,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C87BB73F1BC927210034AB58 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C87BB74A1BC927210034AB58 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0710F2441815AC5EA6F12780 /* 📦 Check Pods Manifest.lock */ = {
+		5AE57F404B68E14078EBF5E3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		14370063B35F27066242AF91 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProxyChatTests/Pods-ProxyChatTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		48DE3F56A03C5A777BAAC96E /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProxyChatUITests/Pods-ProxyChatUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5AE57F404B68E14078EBF5E3 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,14 +190,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProxyChat/Pods-ProxyChat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7264FAE350F0EB1106B231D5 /* 📦 Check Pods Manifest.lock */ = {
+		770CFBC2E71F4BA853FCC808 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,49 +205,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		770CFBC2E71F4BA853FCC808 /* 📦 Check Pods Manifest.lock */ = {
+		857594E1546A1F97FBC05BED /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		857594E1546A1F97FBC05BED /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProxyChat/Pods-ProxyChat-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D4B294EBA97DBF66F732DDCF /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProxyChatTests/Pods-ProxyChatTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -410,34 +232,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C87BB73D1BC927210034AB58 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C87BB7481BC927210034AB58 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C87BB7431BC927210034AB58 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C87BB72C1BC927210034AB58 /* ProxyChat */;
-			targetProxy = C87BB7421BC927210034AB58 /* PBXContainerItemProxy */;
-		};
-		C87BB74E1BC927210034AB58 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C87BB72C1BC927210034AB58 /* ProxyChat */;
-			targetProxy = C87BB74D1BC927210034AB58 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C87BB7341BC927210034AB58 /* Main.storyboard */ = {
@@ -472,8 +267,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -495,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -503,7 +300,24 @@
 			};
 			name = Debug;
 		};
-		C87BB7541BC927210034AB58 /* Release */ = {
+		C87BB7561BC927210034AB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98432C5370EA9165AEBA758E /* Pods-ProxyChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z88HQX98VL;
+				INFOPLIST_FILE = ProxyChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilsonding.ProxyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C8ABEB4E1D8C3C6100794A44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -516,109 +330,53 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Release;
 		};
-		C87BB7561BC927210034AB58 /* Debug */ = {
+		C8ABEB4F1D8C3C6100794A44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98432C5370EA9165AEBA758E /* Pods-ProxyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z88HQX98VL;
 				INFOPLIST_FILE = ProxyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wilsonding.ProxyChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-			};
-			name = Debug;
-		};
-		C87BB7571BC927210034AB58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF695F3E76640D5AEBA4EFE1 /* Pods-ProxyChat.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = ProxyChat/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wilsonding.ProxyChat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-			};
-			name = Release;
-		};
-		C87BB7591BC927210034AB58 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 897E17CF52431AB563192FEA /* Pods-ProxyChatTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ProxyChatTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyChat.app/ProxyChat";
-			};
-			name = Debug;
-		};
-		C87BB75A1BC927210034AB58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2B54F32C5E5BE4011EE4E71 /* Pods-ProxyChatTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ProxyChatTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyChat.app/ProxyChat";
-			};
-			name = Release;
-		};
-		C87BB75C1BC927210034AB58 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0E142A01CA3984CD199F80B /* Pods-ProxyChatUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = ProxyChatUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ProxyChat;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		C87BB75D1BC927210034AB58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F64634AF8BED5A591EB002E /* Pods-ProxyChatUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = ProxyChatUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ProxyChat;
-				USES_XCTRUNNER = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -629,37 +387,19 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C87BB7531BC927210034AB58 /* Debug */,
-				C87BB7541BC927210034AB58 /* Release */,
+				C8ABEB4E1D8C3C6100794A44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		C87BB7551BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C87BB7561BC927210034AB58 /* Debug */,
-				C87BB7571BC927210034AB58 /* Release */,
+				C8ABEB4F1D8C3C6100794A44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C87BB7581BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C87BB7591BC927210034AB58 /* Debug */,
-				C87BB75A1BC927210034AB58 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C87BB75B1BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C87BB75C1BC927210034AB58 /* Debug */,
-				C87BB75D1BC927210034AB58 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,10 +14,10 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ProxyChat.xcscheme_^#shared#^_</key>
+		<key>Pods-ProxyChat.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Pods-ProxyChatTests.xcscheme</key>
 		<dict>
